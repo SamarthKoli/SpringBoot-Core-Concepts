@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> 
+
+    <!-- Enable annotation-based configuration -->
+    <context:annotation-config/>
+
+    <!-- Scan components in the specified package -->
+    <context:component-scan base-package="com.SpringAnnotation.Component"/>
+
+    <!-- Define a utility list (if needed) -->
+    <util:list list-class="java.util.ArrayList" id="address">
+        <value>123 Main Street</value>
+        <value>456 Oak Avenue</value>
+        <value>789 Pine Lane</value>
+    </util:list>
+
+</beans>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    
+    <bean id="s1" class="SpringCore.MySpringRevision.Student" >
+    	<property name="id" value="102"></property>
+    	<property name="name" value="Samarth"></property>
+    	<property name="course">
+    	<list>
+    	<value>Operating system</value>
+    	<value>System Programming</value>
+    	<value>Microprocessor</value>
+    	</list>	
+    
+    	</property>
+    
+    </bean>
+    
+    <bean id="p1" class="SpringCore.MySpringRevision.Person">
+    
+     <constructor-arg>
+     <value>Atharva Gaikwad</value>
+     </constructor-arg>
+    </bean>
+    
+    
+
+</beans>

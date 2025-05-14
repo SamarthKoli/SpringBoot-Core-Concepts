@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Java dev"/>
+			<item value="D:\Java dev\SpringJDBC\src\main\java\SpringCore\SpringJDBC\StudentDAOImpl.java"/>
+			<item value="D:\Java dev\MySpringRevision\src\main\java\SpringCore\MySpringRevision\Person.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.SpringMVC.MVC"/>
+			<item value="com.SpringMVC.SpringMVC"/>
+			<item value="com.votingapp.voting_system"/>
+			<item value="com.Votify.app.VotiFy"/>
+			<item value="com.TodoApp.StickyNotes"/>
+			<item value="hibernateproject.hibernateproject"/>
+		</list>
+		<list key="groupId">
+			<item value="com.SpringMVC"/>
+			<item value="com.votingapp"/>
+			<item value="com.Votify.app"/>
+			<item value="com.TodoApp"/>
+			<item value="hibernateproject"/>
+		</list>
+		<list key="artifactId">
+			<item value="MVC"/>
+			<item value="SpringMVC"/>
+			<item value="voting-system"/>
+			<item value="VotiFy"/>
+			<item value="StickyNotes"/>
+			<item value="hibernateproject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="472"/>
+		<item key="x" value="720"/>
+		<item key="y" value="196"/>
+	</section>
+</section>
